@@ -87,4 +87,50 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
    ```bash  
    git clone https://github.com/yourusername/weather-forecasting-prolog.git  
    cd weather-forecasting-prolog  
-```
+    ```
+2.  🛠️ Open the Prolog file in SWI-Prolog:  
+    ```bash  
+    swipl weather_forecast.pl  
+    ```
+3.  ⚙️ Query the system for predictions:
+    ```
+    ?- forecast_weather(dusseldorf, Date, Temperature, SolarRadiation).  
+
+    ```
+4. 📝 Modify the knowledge base (weather_data.pl) to:
+    Add more cities
+    Include new parameters
+
+## 🔮 Future Scope  
+- 🔮 **Add More Cities**: Expand to other locations across Germany and beyond.  
+- 🔮 **Additional Weather Parameters**: Precipitation, air pressure, visibility, etc.  
+- 🔮 **Real-Time Integration**: Connect with live weather APIs.  
+- 🔮 **Visualization**: Develop a user-friendly graphical interface for predictions.  
+
+---
+
+## 👥 Contributors  
+
+| Name                 | Email                                     | Role                      |  
+|----------------------|-------------------------------------------|---------------------------|  
+| **Othmane Elmekaoui** | [elmekaouiothmane@gmail.com](mailto:elmekaouiothmane@gmail.com) | Developer / Data Engineer |  
+| **Trushar Ghanekar**  | [trushar.ghanekar2411@gmail.com](mailto:trushar.ghanekar2411@gmail.com) | Developer / Logic Designer|  
+| **Third Contributor** | *Name TBD*                              | *Role TBD*               |  
+
+---
+
+### 🧑‍🏫 Supervisor  
+👨‍🏫 **Prof. Youssef Mahmoud Youssef**  
+📧 [youssef.youssef@h-brs.de](mailto:youssef.youssef@h-brs.de)  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.  
+
+---
+
+✨ *This project was developed as part of the Master’s program at HBRS, Sankt Augustin, Germany.*  
+
