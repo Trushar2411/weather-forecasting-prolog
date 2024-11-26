@@ -85,7 +85,7 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
 ### ⚙️ Steps:  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/weather-forecasting-prolog.git  
+   git clone https://github.com/Trushar2411/weather-forecasting-prolog.git  
    cd weather-forecasting-prolog  
     ```
 2.  🛠️ Open the Prolog file in SWI-Prolog:  
@@ -95,11 +95,11 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
 3.  ⚙️ Query the system for predictions:
     ```
     ?- forecast_weather(dusseldorf, Date, Temperature, SolarRadiation).  
-
     ```
 4. 📝 Modify the knowledge base (weather_data.pl) to:
-    Add more cities
-    Include new parameters
+
+    - Add more cities.
+    - Include new parameters.
 
 ## 🔮 Future Scope  
 - 🔮 **Add More Cities**: Expand to other locations across Germany and beyond.  
@@ -113,8 +113,8 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
 
 | Name                 | Email                                     | Role                      |  
 |----------------------|-------------------------------------------|---------------------------|  
-| **Othmane Elmekaoui** | [elmekaouiothmane@gmail.com](mailto:elmekaouiothmane@gmail.com) | Developer / Data Engineer |  
-| **Trushar Ghanekar**  | [trushar.ghanekar2411@gmail.com](mailto:trushar.ghanekar2411@gmail.com) | Developer / Logic Designer|  
+| **Othmane Elmekaoui** | [elmekaouiothmane@gmail.com](mailto:elmekaouiothmane@gmail.com) | Master in Computer Science |  
+| **Trushar Ghanekar**  | [trushar.ghanekar2411@gmail.com](mailto:trushar.ghanekar2411@gmail.com) | Master in Autonomous Systems|  
 | **Third Contributor** | *Name TBD*                              | *Role TBD*               |  
 
 ---
