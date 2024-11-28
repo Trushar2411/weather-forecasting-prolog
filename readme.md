@@ -122,8 +122,7 @@ weather(20000102, 2, 6.5, 0.85, 0.15).
 |----------------------|-------------------------------------------|---------------------------|  
 | **Othmane Elmekaoui** | [elmekaouiothmane@gmail.com](mailto:elmekaouiothmane@gmail.com) | Master in Computer Science |  
 | **Trushar Ghanekar**  | [trushar.ghanekar2411@gmail.com](mailto:trushar.ghanekar2411@gmail.com) | Master in Autonomous Systems|  
-| **Abdelbasset Moujtahid** | *Name TBD*                              | *Role TBD*               |  
-
+| **Abdelbasset Moujtahid** | [abdelbasset.moujtahid@smail.inf.h-brs.de](mailto:abdelbasset.moujtahid@smail.inf.h-brs.de)                              | Master in Cyber Security & Privacy               |  
 ---
 
 ### 🧑‍🏫 Supervisor  
