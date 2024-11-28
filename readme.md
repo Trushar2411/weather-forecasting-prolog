@@ -76,11 +76,12 @@ weather(20000102, 2, 6.5, 0.85, 0.15).
 ---
 
 ## ✨ Features  
-✨ Explainable Predictions: Transparent, rule-based reasoning.
-✨ City-Specific Forecasting: Currently supports Düsseldorf.
-✨ Modular Design: Easily add cities and weather parameters.
-✨ Scalable: Extendable with additional data and rules.
-✨ Historical Trends: The system uses historical data to make future predictions for specific parameters like Temperature, Humidity, and Precipitation.
+- **Explainable Predictions**: Transparent, rule-based reasoning.  
+- **City-Specific Forecasting**: Currently supports Düsseldorf.  
+- **Modular Design**: Easily add cities and weather parameters.  
+- **Scalable**: Extendable with additional data and rules.  
+- **Historical Trends**: The system uses historical data to make future predictions for specific parameters like Temperature, Humidity, and Precipitation.
+
 
 ---
 
