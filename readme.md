@@ -1,4 +1,4 @@
-# 🌦️ Weather Forecasting with Explainable Machine Learning Using Prolog  
+# 🌦️ Weather Forecasting with Inductive logic programming (ILP)
 
 📚 **Course**: Explainable Machine Learning  
 👨‍🏫 **Professor**: [Prof. Youssef Mahmoud Youssef](mailto:youssef.youssef@h-brs.de)  
@@ -115,7 +115,7 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
 |----------------------|-------------------------------------------|---------------------------|  
 | **Othmane Elmekaoui** | [elmekaouiothmane@gmail.com](mailto:elmekaouiothmane@gmail.com) | Master in Computer Science |  
 | **Trushar Ghanekar**  | [trushar.ghanekar2411@gmail.com](mailto:trushar.ghanekar2411@gmail.com) | Master in Autonomous Systems|  
-| **Third Contributor** | *Name TBD*                              | *Role TBD*               |  
+| **Abdelbasset Moujtahid** | *Name TBD*                              | *Role TBD*               |  
 
 ---
 
