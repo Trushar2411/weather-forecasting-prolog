@@ -22,28 +22,33 @@
 ## 🌟 Introduction  
 Modern weather forecasting systems often rely on **black-box models**, which are challenging to interpret.  
 This project addresses this gap by building a weather prediction system using **Prolog**,  
-a logic-based programming language that ensures **transparent reasoning and explainability**.  
+a logic-based programming language that ensures **transparent reasoning and explainability**.
 
 🔍 **Focus**: Predict key weather attributes like:  
 - **🌡️ Temperature**  
-- **☀️ Solar Radiation**  
+- **💧 Humidity**  
+- **🌧️ Precipitation**  
 
 📍 **Currently Supported Location**: Düsseldorf, Germany  
-🌍 **Future Expansion**: Extendable to other cities and parameters.  
+🌍 **Future Expansion**: Extendable to other cities and parameters.
 
 ---
 
 ## 📂 Dataset  
-The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes the following attributes:  
+The dataset is sourced from **Kaggle** and includes the following attributes:  
 - 🌡️ **Temperature (°C)**  
-- ☀️ **Solar Radiation (kW/m²)**  
 - 💧 **Humidity (%)**  
-- 🌬️ **Wind Speed (m/s)**  
+- 🌧️ **Precipitation (mm)**  
 - 📅 **Date and Time**  
 
-📌 The dataset was cleaned, normalized, and structured to suit Prolog-based modeling.
+📌 The dataset was cleaned, normalized, and structured to suit Prolog-based modeling.  
 
----
+**Example format of the dataset**:
+```prolog
+weather(20000101, 1, 4.2, 0.92, 0.22).
+weather(20000102, 2, 6.5, 0.85, 0.15).
+```
+
 
 ## 🎯 Project Objectives  
 🎯 Build a **transparent and explainable weather forecasting system**.  
@@ -59,22 +64,23 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
    - Converted data into Prolog-compatible facts and rules.  
 
 2. **💻 Prolog-Based Prediction Model**:  
-   - Developed logic-based rules for temperature and solar radiation predictions.  
+   - Developed logic-based rules for temperature, humidity, and precipitation predictions.  
    - Encoded historical weather trends into a Prolog knowledge base.  
 
 3. **🤖 Explainability**:  
    - Prolog inherently provides logical reasoning for each prediction.  
 
 4. **👤 User Interaction**:  
-   - Users can query Prolog for weather predictions based on location and date.  
+   - Users can query Prolog for weather predictions based on location, date, and specific parameters (Temperature, Humidity, Precipitation).
 
 ---
 
 ## ✨ Features  
-✨ **Explainable Predictions**: Transparent, rule-based reasoning.  
-✨ **City-Specific Forecasting**: Currently supports Düsseldorf.  
-✨ **Modular Design**: Easily add cities and weather parameters.  
-✨ **Scalable**: Extendable with additional data and rules.  
+✨ Explainable Predictions: Transparent, rule-based reasoning.
+✨ City-Specific Forecasting: Currently supports Düsseldorf.
+✨ Modular Design: Easily add cities and weather parameters.
+✨ Scalable: Extendable with additional data and rules.
+✨ Historical Trends: The system uses historical data to make future predictions for specific parameters like Temperature, Humidity, and Precipitation.
 
 ---
 
@@ -94,7 +100,7 @@ The dataset is sourced from **[Kaggle](https://www.kaggle.com)** and includes th
     ```
 3.  ⚙️ Query the system for predictions:
     ```
-    ?- forecast_weather(dusseldorf, Date, Temperature, SolarRadiation).  
+    ?- forecast_temperature(20000101, 2025, ForecastedTemp).
     ```
 4. 📝 Modify the knowledge base (weather_data.pl) to:
 
