@@ -39,8 +39,7 @@ The dataset is sourced from **Kaggle** and includes the following attributes:
 - 🌡️ **Temperature (°C)**  
 - 💧 **Humidity (%)**  
 - 🌧️ **Precipitation (mm)**  
-- 📅 **Date and Time**
-- 📍 **Location**  
+- 📅 **Date and Time**  
 
 📌 The dataset was cleaned, normalized, and structured to suit Prolog-based modeling.  
 
