@@ -1,16 +1,17 @@
-% Declare target predicate (the hypothesis we want Popper to learn)
-head_pred(forecast, 3).
+% Head predicate: what we want to learn
+:- modeh(1, will_rain(Date)).
+:- modeh(1, will_not_rain(Date)).
 
-% Declare background knowledge predicates
-body_pred(weather, 5).
-body_pred(trend_temperature, 2).
+% Body predicate: background knowledge used to construct rules
+:- modeb(1, weather(Date, Month, Temperature, CloudCover, Precipitation)).
 
-% Type declarations for the predicates
-type(forecast, (int, int, float)).
-type(weather, (int, int, float, float, float)).
-type(trend_temperature, (int, float)).
+% Constraints
+% Maximum number of literals in the body
+max_body(2).
 
-% Direction of the arguments
-direction(forecast, (in, in, out)).
-direction(weather, (in, in, out, out, out)).
-direction(trend_temperature, (in, out)).
+% Maximum number of clauses in a hypothesis
+max_clauses(1).
+
+% Allowable predicates in rules
+:- determination(will_rain/1, weather/5).
+:- determination(will_not_rain/1, weather/5).

@@ -1,9 +1,19 @@
-% Positive examples
-pos(forecast(20000101, 20010101, 3.6)).
-pos(forecast(20000102, 20010102, 9.8)).
-pos(forecast(20000103, 20010103, 6.1)).
+% Positive examples for will_rain
+pos(will_rain(20000101)).
+pos(will_rain(20000104)).
+pos(will_rain(20000208)).
 
-% Negative examples
-neg(forecast(20000101, 20010101, 10.0)).
-neg(forecast(20000102, 20010102, 5.0)).
-neg(forecast(20000103, 20010103, 2.0)).
+% Negative examples for will_rain
+neg(will_rain(20000102)).
+neg(will_rain(20000105)).
+neg(will_rain(20000203)).
+
+% Positive examples for will_not_rain
+pos(will_not_rain(20000102)).
+pos(will_not_rain(20000105)).
+pos(will_not_rain(20000203)).
+
+% Negative examples for will_not_rain
+neg(will_not_rain(20000101)).
+neg(will_not_rain(20000104)).
+neg(will_not_rain(20000208)).
