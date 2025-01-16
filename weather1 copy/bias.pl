@@ -5,9 +5,12 @@ head_pred(will_rain, 1).
 body_pred(weather, 5).
 
 % Type declarations
-type(will_rain, (date)).
+type(will_rain, (date,)).
 type(weather, (date, month, temperature, cloud_cover, precipitation)).
 
 % Constraints
-:- clause(C), #count {V : var_type(C, V, date)} != 1.
 
+% Ensure each clause uses exactly one variable of type `date`
+:-
+    clause(C),
+    #count {V : var_type(C, V, date)} != 1.

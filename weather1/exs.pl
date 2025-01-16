@@ -11,5 +11,3 @@ pos(will_rain(20000208)).
 neg(will_rain(20000102)).
 neg(will_rain(20000105)).
 neg(will_rain(20000203)).
-
-
