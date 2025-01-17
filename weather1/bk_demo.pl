@@ -3652,3 +3652,18 @@ weather(20091229, 12, 2.2, 0.88, 1.57).
 weather(20091230, 12, 4.8, 0.99, 0.9).
 weather(20091231, 12, 0.6, 0.97, 0.04).
 weather(20100101, 1, -1.1, 0.89, 0.02).
+
+
+cloud_cover(Date, A):-
+    weather(Date, _, _, A, _).
+
+cloud_cover_high(Date):-
+    cloud_cover(Date, CloudCover),
+    CloudCover > 0.75.
+
+precipitation_high(Date):-
+    weather(Date, _, _, _, Precipitation),
+    Precipitation > 0.1.
+
+
+
